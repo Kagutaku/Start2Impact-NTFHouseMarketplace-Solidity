@@ -1,0 +1,232 @@
+/* PAGE BODY */
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+  min-height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 450px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 45px;
+}
+
+.nav-links a:hover {
+  color: #000000;
+}
+
+/* CONNECT WALLET BUTTON */
+.connect-wallet button {
+  background-color: green;
+  margin-left: 80px;
+  font-size: 30px;
+  border: grey;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+/* HOMEPAGE */
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.homepage-logo {
+  width: 60%;
+  height: auto;
+}
+
+.homepage-description {
+  font-size: 2rem;
+  margin-top: 40px;
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 22px;
+  bottom: 0;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  color: #000000;
+}
+
+.footer strong {
+  font-weight: bold;
+}
+
+
+
+/* DASHBOARD PAGE */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  color: black;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+}
+
+.dashboard-section h3 {
+  font-size: 33px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.dashboard-section a {
+  color: #29a0c9;
+}
+
+.dashboard-section p {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.etherscan-link {
+  margin-left: 10px;
+}
+
+
+
+/* HOUSE CONTRACT CENTER */
+.houseContract-center-top-section {
+  display: flex;
+  justify-content: center;
+  height: 33vh;
+  align-items: flex-start;
+}
+
+.houseContract-center-form {
+  color: black;
+  font-size: 33px;
+  padding: 50px;
+  border: 2px solid black;
+  margin: 30px;
+  text-align: center;
+}
+
+.houseContract-center-form input[type="text"],
+.houseContract-center-form button {
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.houseContract-center-bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.houseContract-center-search {
+  color: black;
+  font-size: 33px;
+  padding: 50px;
+  border: 2px solid black;
+  margin: 30px;
+  text-align: center;
+}
+
+.houseContract-center-search input[type="text"],
+.houseContract-center-search button {
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.error-message {
+  color: red;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.success-message {
+  color: #2BF618;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+/* WALLET NOT CONNECTED PAGE*/
+.wallet-connected {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
