@@ -1,4 +1,4 @@
-NFTHouse MARKETPLACE (USING NextJs, SOLIDITY, ERC721 STANDARD) 
+NFTHouse MARKETPLACE (Using: Javascript, NodeJS, ReactJS, NextJS, Solidity, HTML & CSS, ERC721 STANDARD) 
 
 🚀 Objective of the project
 
